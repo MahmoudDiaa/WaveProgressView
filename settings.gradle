@@ -8,4 +8,4 @@
 //}
 rootProject.name = "WaveProgress"
 include ':app'
-include ':WaveProgressView'
+include ':waveprogressview'
