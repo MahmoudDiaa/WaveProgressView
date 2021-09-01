@@ -98,7 +98,7 @@ open class WaveProgressView(context: Context?, attrs: AttributeSet?, defStyleAtt
         return progress
     }
 
-    private fun setProgress(progress: Float) {
+     fun setProgress(progress: Float) {
         this.progress = java.lang.Float.valueOf(df.format(progress))
         invalidate()
     }
